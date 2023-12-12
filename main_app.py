@@ -6,7 +6,7 @@ app = Flask(__name__)
 model_name = "Davlan/bert-base-multilingual-cased-ner-hrl"
 
 @app.route('/multilingual_ner_prediction', methods=['POST'])
-def planet_act_generator():
+def multilingual_ner_prediction():
     """
        NER prediction function
        :return: json
