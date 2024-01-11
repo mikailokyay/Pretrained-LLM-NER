@@ -25,4 +25,4 @@ ENV PYTHONPATH "${PYTHONPATH}:/code"
 EXPOSE 5000
 
 # Define the command to start the API
-CMD ["python", "planet_app:app", "--host", "0.0.0.0", "--port", "5000"]
+CMD ["python", "main_app:app", "--host", "0.0.0.0", "--port", "5000"]
